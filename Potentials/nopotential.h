@@ -6,5 +6,5 @@ class NoPotential : public Potential {
 public:
     NoPotential() {}
     std::string getName();
-    void computeForces(Particle*, Particle*);
+    void computeForces(Particle&, Particle&);
 };
