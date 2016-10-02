@@ -1,5 +1,5 @@
 #pragma once
-#include <Potentials/potential.h>
+#include "potential.h"
 #include <string>
 
 class NoPotential : public Potential {

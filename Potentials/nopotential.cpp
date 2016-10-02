@@ -1,4 +1,4 @@
-#include <Potentials/nopotential.h>
+#include "nopotential.h"
 
 
 std::string NoPotential::getName() {
